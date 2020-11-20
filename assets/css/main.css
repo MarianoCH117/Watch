@@ -182,9 +182,11 @@ footer{
 }
 #loginform{
     width: 480px;
-    justify-content: center;
+    margin: auto;
     align-items: center;
-
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 180px;
 }
 #login{
     background-position: center center;
@@ -220,6 +222,76 @@ footer{
 #iconmenu{
     width: 25px;
 }
+
+/*descripcion*/
+
+ol li {
+    list-style: none;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.elements {
+    display: inline;
+    justify-content: center;
+    flex-direction: column;
+    width: 4rem;
+    margin-right: 10px;
+    color: #F5F5F5;
+}
+
+.sin {
+    color: blue;
+}
+
+.desc {
+    color: #fff;
+}
+
+.scrollbar-cyan::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #033d88;
+    border-radius: 10px;
+}
+
+.scrollbar-cyan::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-cyan::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+}
+
+.scrollbar-cyan {
+    scrollbar-color: #00bcd4 #F5F5F5;
+}
+
+.bordered-cyan::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: none;
+}
+
+.square::-webkit-scrollbar-track {
+    border-radius: 0 !important;
+}
+
+.square::-webkit-scrollbar-thumb {
+    border-radius: 0 !important;
+}
+
+.thin::-webkit-scrollbar {
+    width: 6px;
+}
+
+.example-1 {
+    position: relative;
+    overflow-y: scroll;
+    height: 220px;
+    margin-bottom: 10px;
+}
+
+
 /* medias */
 @media(max-width: 600px){
     .slickimg{
@@ -243,5 +315,19 @@ footer{
     #menu{
         margin-top: 10px;
     }
+    .ttl {
+        width: auto;
+    }
+    .elements {
+        margin-right: 5px;
+    }
+    @media (min-width: 375px) {
+    .ttl {
+        width: auto;
+    }
+    .elements {
+        margin-right: 5px;
+    }
+}
 }
 

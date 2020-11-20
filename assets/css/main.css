@@ -177,11 +177,13 @@ footer{
 #fondologo{
     background: url(../image/fondologo.jpg);
     height: 170px;
-
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     
 }
 #loginform{
-    width: 480px;
+    width: 400px;
     margin: auto;
     align-items: center;
     justify-content: center;
@@ -194,14 +196,11 @@ footer{
     background-attachment: fixed;
     background-size: cover;
 }
-
-.fondologo{
-    position:absolute;
-    height:200px;
-    width:400px;
-    z-index: -1;
-    background-color: rgba(0,0,0,0.2);
-    filter:brightness(0.5);
+#campos{
+    margin: 20px;
+}
+#logo{
+    
 }
 /* reproductor */
 #reproductor{
@@ -221,6 +220,9 @@ footer{
 }
 #iconmenu{
     width: 25px;
+}
+#btninicio{
+    margin-bottom: 10px;
 }
 
 /*descripcion*/

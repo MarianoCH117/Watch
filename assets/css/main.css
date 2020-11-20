@@ -5,6 +5,14 @@ h4, h2,small,a{
     margin: 0;
     padding: 0;
 }
+#btningresar{
+    background-color: #E8FBFA;
+    color: #033D88;
+}
+#btnregistro{
+    background-color: #033D88;
+    color:  #E8FBFA;
+}
 a{
     text-decoration: none;
 }
@@ -61,7 +69,6 @@ footer{
     z-index: 1;
     font-size: 22px;
     line-height: 23px;
-    color: #fff;
     padding: 15px;
 }
 .slick  h4 small, .slick2 h4 small, .slick3 h4 small, .slick4 h4 small{
@@ -116,6 +123,8 @@ footer{
 .slick-next{
     right: 0px;
 }
+
+/* Catalogo */
 .container.gallery-container {
     background-color: #fff;
     color: #35373a;
@@ -164,8 +173,66 @@ footer{
     background-color: transparent !important;
 }
 
+/* Login */
+#fondologo{
+    background: url(../image/fondologo.jpg);
+    height: 170px;
 
-@media(max-width: 768px) {
+    
+}
+#loginform{
+    width: 480px;
+    justify-content: center;
+    align-items: center;
+
+}
+#login{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.fondologo{
+    position:absolute;
+    height:200px;
+    width:400px;
+    z-index: -1;
+    background-color: rgba(0,0,0,0.2);
+    filter:brightness(0.5);
+}
+/* reproductor */
+#reproductor{
+    margin-left: 100px;
+}
+#menu{
+
+}
+.imgr{
+    position: relative;
+    width: 150px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+#iconmenu{
+    width: 25px;
+}
+/* medias */
+@media(max-width: 600px){
+    .slickimg{
+        width: 200px;
+    }
+    #logo{
+        width: auto;
+    }
+    #reproductor{
+        margin-left: 50px;
+    }
+}
+@media(max-width: 768px){
     body {
         padding: 0;
     }
@@ -173,10 +240,8 @@ footer{
     .container.gallery-container {
         border-radius: 0;
     }
-}
-
-@media(max-width: 600px){
-    .slickimg{
-        width: 200px;
+    #menu{
+        margin-top: 10px;
     }
 }
+

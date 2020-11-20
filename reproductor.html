@@ -10,7 +10,7 @@
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script defer src="assets/js/main.js"></script>
-    <title>Estrenos</title>
+    <title>Reproductor</title>
 </head>
 <body>
     <nav class="navbar navbar-expand-sm navbar-dark navbar navbar-inverse" style="background-color: #03082A;">
@@ -57,38 +57,52 @@
         </div>
     </nav>
 
-    <h1 style="color: #E8FBFA; margin-left: 30px;">Estrenos</h1>
-    <div class="tz-gallery">
-        <div class="row">
-            <div class="col-xs-6 col-sm-4 col-md-3">
-                <a class="lightbox slickimg" href="">
-                    <img src="assets/image/bob.png" alt="Park">
-                </a>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3">
-                <a class="lightbox slickimg" href="">
-                    <img src="assets/image/barbarians.png" alt="Bridge">
-                </a>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3">
-                <a class="lightbox slickimg " href="">
-                    <img src="assets/image/matrix.png" alt="Tunnel">
-                </a>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3">
-                <a class="lightbox slickimg" href="">
-                    <img src="assets/image/creed IIp.png" alt="Coast">
-                </a>
-            </div>
-            <div class="col-xs-6 col-sm-4 col-md-3">
-                <a class="lightbox slickimg" href="">
-                    <img src="assets/image/Gotham.png" alt="Rails">
-                </a>
+    <article id="reproductor" class="view intro-video"> 
+        <h1 style="color: #E8FBFA; margin-left: 30px;">Willy</h1>
+        <div class="col-lg-7 wow fadeIn">
+            <div class="embed-responsive embed-responsive-16by9 wow fadeInRight">
+                <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/n2h_ecmI0dw"
+                allowfullscreen></iframe>
             </div>
         </div>
-    </div>
-
-    <footer class="navbar-expand-sm navbar-dark"  style="background-color: #03082A;">
+    </article>
+    <article id="menu" style="text-align: center;">
+        <section >
+            <button type="submit" class="btn btn-primary">
+                <img id="iconmenu" src="assets/icons/list-1.png" alt="">
+                Episodios
+            </button>
+        </seccion>
+        <section class="col-lg-4 ">
+            <h1 style="color: #E8FBFA; text-align: center;" >Titulos recomendados</h1>
+            <div class="tz-gallery">
+                <div class="row">
+                    <div class="col-xs-6 ">
+                        <a class="lightbox imgr" href="">
+                            <img src="assets/image/bob.png" alt="Park">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 ">
+                        <a class="lightbox imgr" href="">
+                            <img src="assets/image/barbarians.png" alt="Bridge">
+                        </a>
+                    </div>
+                    <div class="col-xs-6">
+                        <a class="lightbox imgr " href="">
+                            <img src="assets/image/matrix.png" alt="Tunnel">
+                        </a>
+                    </div>
+                    <div class="col-xs-6 ">
+                        <a class="lightbox imgr" href="">
+                            <img src="assets/image/creed IIp.png" alt="Coast">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </article>
+    
+    <footer class="navbar-expand-sm navbar-dark col-lg-12"  style="background-color: #03082A;">
         <div class="col" >
             <a class="navbar-brand" href="#">
                 <img src="assets/image/logo.png" alt="logo" style="width:100px;">

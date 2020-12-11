@@ -199,8 +199,8 @@ footer{
 #campos{
     margin: 20px;
 }
-#logo{
-    
+.datos{
+    color: #E8FBFA;
 }
 /* reproductor */
 #reproductor{

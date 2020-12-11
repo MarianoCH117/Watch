@@ -1,0 +1,340 @@
+body{
+    background-color:  #040B38;
+}
+h4, h2,small,a{
+    margin: 0;
+    padding: 0;
+}
+#btningresar{
+    background-color: #E8FBFA;
+    color: #033D88;
+}
+#btnregistro{
+    background-color: #033D88;
+    color:  #E8FBFA;
+}
+a{
+    text-decoration: none;
+}
+footer{
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+.Carousel{
+    width: 100%;
+    margin: 60px 0px;
+}
+.Carousel h2{
+    font-size: 26px;
+    line-height: 38px;
+    padding-bottom: 24px;
+    opacity: .9;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+}
+
+/* images */
+
+.slick-list{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    height: 304px;
+    padding: 10px 0px;
+    margin: 0px auto;
+    max-width: 90vw;
+    overflow: hidden;
+}
+.slick-track{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    transition: .5s ease-in-out;
+}
+.slick, .slick2, .slick3, .slick4 {
+    position: relative;
+    width: 275px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+.slick  h4, .slick2 h4, .slick3 h4, .slick4 h4{
+    position: absolute;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 23px;
+    padding: 15px;
+}
+.slick  h4 small, .slick2 h4 small, .slick3 h4 small, .slick4 h4 small{
+    font-size: 15px;
+    display: block;
+}
+.slick  a img, .slick2 a img, .slick3 a img, .slick4 a img{
+    object-fit: cover;
+    height: 300px;
+    width: 100%;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.5);
+    transition: .3s ease-in-out;
+}
+.slick  a img:hover, .slick2 a img:hover, .slick3 a img:hover, .slick4 a img:hover{
+    opacity: .85;
+}
+.slickimg{
+    position: relative;
+    width: 295px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+/* buttons */
+
+.slick-arrow{
+    border-radius: 30px;
+    background-color: #fff;
+    position: absolute;
+    z-index: 4;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    border: 0;
+    cursor: pointer;
+}
+.slick-arrow:focus{
+    outline: 0;
+}
+.slick-arrow svg{
+    width: 12px;
+    height: 100%;
+    color: rgba(0,0,0,.7);
+}
+.slick-prev{
+    left: 0px;
+}
+.slick-next{
+    right: 0px;
+}
+
+/* Catalogo */
+.container.gallery-container {
+    background-color: #fff;
+    color: #35373a;
+    min-height: 100vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 70px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    max-width: 800px;
+    margin: 25px auto;
+    color: #888;
+    font-size: 18px;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+
+
+.tz-gallery .lightbox img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+.tz-gallery img {
+    border-radius: 4px;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+/* Login */
+#fondologo{
+    background: url(../image/fondologo.png);
+    height: 170px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    opacity: .9;
+}
+#loginform{
+    width: 400px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 180px;
+}
+#profile{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#login{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+#campos{
+    margin: 20px;
+}
+
+.datos{
+    color: #E8FBFA;
+}
+/* reproductor */
+#reproductor{
+    margin-left: 100px;
+}
+
+.imgr{
+    position: relative;
+    width: 150px;
+    padding: 0 18px;
+    float: left;
+    box-sizing: border-box;
+    display: flex;
+    height: 100%;
+}
+#iconmenu{
+    width: 25px;
+}
+#btninicio{
+    margin-bottom: 10px;
+}
+
+/*descripcion*/
+
+ol li {
+    list-style: none;
+    margin: 10px;
+    flex-direction: row;
+}
+
+.elements {
+    display: inline;
+    justify-content: center;
+    flex-direction: column;
+    width: 4rem;
+    margin-right: 10px;
+    color: #F5F5F5;
+}
+
+.sin {
+    color: blue;
+}
+
+.desc {
+    color: #fff;
+}
+
+.scrollbar-cyan::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #033d88;
+    border-radius: 10px;
+}
+
+.scrollbar-cyan::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+.scrollbar-cyan::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+}
+
+.scrollbar-cyan {
+    scrollbar-color: #00bcd4 #F5F5F5;
+}
+
+.bordered-cyan::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: none;
+}
+
+.square::-webkit-scrollbar-track {
+    border-radius: 0 !important;
+}
+
+.square::-webkit-scrollbar-thumb {
+    border-radius: 0 !important;
+}
+
+.thin::-webkit-scrollbar {
+    width: 6px;
+}
+
+.example-1 {
+    position: relative;
+    overflow-y: scroll;
+    height: 220px;
+    margin-bottom: 10px;
+}
+
+
+/* medias */
+@media(max-width: 600px){
+    .slickimg{
+        width: 200px;
+    }
+    #logo{
+        width: auto;
+    }
+    #reproductor{
+        margin-left: 50px;
+    }
+}
+@media(max-width: 768px){
+    body {
+        padding: 0;
+    }
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+    #menu{
+        margin-top: 10px;
+    }
+    .ttl {
+        width: auto;
+    }
+    .elements {
+        margin-right: 5px;
+    }
+    @media (min-width: 375px) {
+    .ttl {
+        width: auto;
+    }
+    .elements {
+        margin-right: 5px;
+    }
+}
+}
+

@@ -26,7 +26,7 @@ class Datos extends BaseController
         $datos->insert($data);
         /*$datosB = new usuariosModel($db);
         $variableIndice['usuario'] = $datosB->where("nombre",$nombre)->findAll();*/
-        return view('headSesion').view('login');   
+        return view('headSesion').view('loginadmin');   
     }
 
     public function Login(){
